@@ -1,4 +1,4 @@
-/* Divisão de 100 por 5 */
+/* Divisão de 200 por 5 */
 
 let x = 200;
 let y = 5;

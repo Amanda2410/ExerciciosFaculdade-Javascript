@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dobro</title>
     <style>
+        * {
+            text-align: center;
+            background-color: rgb(195, 224, 215);
+        }
+
         h1 {
             color: rgb(70, 65, 73);
-            background-color: rgb(155, 126, 155);
+            background-color: rgb(179, 112, 179);
             padding: 20px;
+        }
+
+        p {
+            font-size: 20px;
         }
     </style>
 </head>
 
 <body>
     <h1>Dobro de um valor</h1><br>
-    <p id="demo"></p>
-    <script>
-
-        x = 15;
-        y = 2;
-        z = x * y;
-
-        document.getElementById("demo").innerHTML = "O dobro de 15 é: " + z;
-
-    </script>
-
+    <p>O dobro x*2</p>
+    <p id="dobro"></p>
+    <script src="cod.js"></script>
 </body>
 
 </html>
